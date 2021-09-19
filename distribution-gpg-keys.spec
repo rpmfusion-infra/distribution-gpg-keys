@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.27
+Version:	1.57
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,145 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Sat Sep 04 2021 Miroslav Suchý <msuchy@redhat.com> 1.57-1
+- update copr keys
+
+* Mon Jul 26 2021 Miroslav Suchý <msuchy@redhat.com> 1.56-1
+- update copr keys
+
+* Mon Jun 28 2021 Miroslav Suchý <msuchy@redhat.com> 1.55-1
+- update copr keys
+- Add Rocky Linux Keys
+
+* Mon Jun 07 2021 Miroslav Suchý <msuchy@redhat.com> 1.54-1
+- update copr keys
+- Add openSUSE Backports OBS project key
+- Add SUSE's package signing keys
+
+* Thu May 20 2021 Miroslav Suchý <msuchy@redhat.com> 1.53-1
+- update copr keys
+
+* Thu Apr 22 2021 Miroslav Suchý <msuchy@redhat.com> 1.52-1
+- update copr keys
+
+* Mon Mar 01 2021 Miroslav Suchý <msuchy@redhat.com> 1.51-1
+- update copr keys
+- Add missing CentOS SIG keys
+- add Fedora 36 key
+- matrix of opengpg availablity
+- add intel new gpg key
+
+* Wed Feb 17 2021 Miroslav Suchý <msuchy@redhat.com> 1.50-1
+- Add symlinks for F35
+
+* Wed Feb 17 2021 Miroslav Suchý <msuchy@redhat.com> 1.49-1
+- update copr keys
+- add mariadb key
+- document type61
+- add Alma Linux
+
+* Fri Feb 05 2021 Miroslav Suchý <msuchy@redhat.com> 1.48-1
+- add Fedora 35
+- update copr keys
+
+* Mon Jan 18 2021 Miroslav Suchý <msuchy@redhat.com> 1.47-1
+- update copr keys
+- add Remi 2021 key
+
+* Thu Dec 17 2020 Miroslav Suchý <msuchy@redhat.com> 1.46-1
+- update copr keys
+
+* Mon Nov 23 2020 Miroslav Suchý <msuchy@redhat.com> 1.45-1
+- update copr keys
+- update README with list of keys
+- correct symlinks for rpmfusion 33/34
+
+* Mon Oct 19 2020 Miroslav Suchý <msuchy@redhat.com> 1.44-1
+- update copr keys
+- update link to fedora rawhide
+- add Fedora ELN keys
+- add Zoom gpg key
+- Add Oracle Linux GPG keys
+
+* Wed Oct 07 2020 Miroslav Suchý <msuchy@redhat.com> 1.43-1
+- now really add f33
+- add f33 releasers
+
+* Mon Oct 05 2020 Miroslav Suchý <msuchy@redhat.com> 1.42-1
+- update copr keys
+- add rpmfusion 33 and update latest links
+
+* Thu Aug 06 2020 Miroslav Suchý <msuchy@redhat.com> 1.41-1
+- add Fedora 34 key
+- update copr keys
+- add Qubes signing keys
+
+* Mon Jul 13 2020 Miroslav Suchý <msuchy@redhat.com> 1.40-1
+- update copr keys
+- Add Datto's third party repository GPG keys
+- Add EuroLinux keys
+
+* Thu May 28 2020 Miroslav Suchý <msuchy@redhat.com> 1.39-1
+- update copr keys
+- add intel gpg key
+- add RosaLinux GPG keyring
+
+* Tue Apr 21 2020 Miroslav Suchý <miroslav@suchy.cz> 1.38-1
+- update copr keys
+- add mysql gpg key
+- add BlueJeans key
+- Add symlink from CentOS 8 to CentOS Official key
+- add remi 2020 key and update for f32 branch
+
+* Tue Feb 18 2020 Miroslav Suchý <msuchy@redhat.com> 1.37-1
+- update copr keys
+- f29 is eoled
+- Symlink Rawhide to Fedora 33 key
+- Add remi 2020 key
+
+* Wed Jan 29 2020 Miroslav Suchý <msuchy@redhat.com> 1.36-1
+- update copr keys
+- add Fedora 33 gpg key
+- Add keys for IUS repository (https://ius.io)
+
+* Thu Sep 26 2019 Miroslav Suchý <msuchy@redhat.com> 1.35-1
+- update copr keys
+- Add key for Amazon Linux 2
+
+* Tue Aug 20 2019 Miroslav Suchý <msuchy@redhat.com> 1.34-1
+- update copr keys
+- fix whitespace error in fedora-32 key (rhbz#1743422)
+- Add RPM Fusion keys for fedora 32
+
+* Fri Aug 16 2019 Miroslav Suchý <msuchy@redhat.com> 1.33-1
+- add EPEL-8
+- add CentOS 8 keys
+- add Fedora 32 key
+
+* Mon Jul 08 2019 Miroslav Suchý <msuchy@redhat.com> 1.32-1
+- Update Copr keys
+- Add OpenMandriva package signing key
+- add Zimbra key
+
+* Thu May 16 2019 Miroslav Suchý <msuchy@redhat.com> 1.31-1
+- update Copr keys
+
+* Thu Apr 11 2019 Miroslav Suchý <msuchy@redhat.com> 1.30-1
+- Deleted old Copr keys and added new Copr keys
+- readme: add note about Debian, Ubuntu and Arch
+- update list of keys in README
+- add brave key
+- Add remi 2019 key
+
+* Tue Feb 19 2019 Miroslav Suchý <msuchy@redhat.com> 1.29-1
+- update Copr keys
+- add F31 key and point rawhide to F31
+- add Fedora iot keys
+
+* Thu Jan 31 2019 Miroslav Suchý <msuchy@redhat.com> 1.28-1
+- update copr keys
+- Add cuda 2019 - el8 - fedora 31 keys (rpmfusion)
+
 * Wed Jan 02 2019 Miroslav Suchý <msuchy@redhat.com> 1.27-1
 - update copr keys
 
